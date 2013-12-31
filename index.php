@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-  <title>Tech-Terminal - HTML5 Landing Page Template</title>
+  <title>tech-terminal - HTML5 Landing Page Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -51,7 +51,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img src="images/techterminal.png" alt="logo">Tech-Terminal</a>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -75,8 +75,8 @@
                         <div class="bigmessage">
                         
                             <h3 class="box-title">
-                                Tech-Terminal 
-                                <small>Are you ready for Tech-Terminal? See pricing details below.</small>
+                                Alliance Landing Page
+                                <small>Are you ready for tech-terminal? See pricing details below.</small>
                             </h3>
                             
                             <div class="clearfix"></div>
