@@ -23,7 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	body {
 		color: #888888;
 		font-family: "Open Sans",Arial,sans-serif;
-		font-size: 14px;
+		font-size: 10px;
 		line-height: 22px;
 	}
 		
@@ -36,6 +36,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		color: #fff;
 		text-shadow:none;
 		background:#4ba2dc;
+		background-size:800 800;
 	}
 	::selection {
 		color: #fff;
@@ -50,7 +51,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		padding: 0;
-		margin: 0;
+		margin-left:2px;
+		
 	}
 	
 	.clearfix:before,
@@ -463,21 +465,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		background:#ffffff;
 	}
 
-	.colon6{
-		z-index: 1;
-		width:100%;
-		display:block;
-		overflow:hidden;
-		padding: 100px 0;
-		position:relative;
-		  background: url(demos/02_bg.png) no-repeat center center fixed;
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='demos/02_bg.png', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='demos/02_bg.png', sizingMethod='scale')";
-	}
+	
 	.bigmessage {
 		background: #000000;
 		background: rgba(0,0,0,0.4);
@@ -494,8 +482,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	.bigmessage .box-title {
 		border-bottom:1px solid rgba(255,255,255,0.3);
 		padding-bottom: 20px;
-		font-weight:bold;
 		margin-bottom:20px;
+		font-weight::normal;
 	}
 	
 	#countdown span, .stat-count {
@@ -519,22 +507,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	.box {  
 		-moz-box-sizing: border-box;
 		background-color: #ffffff;
-		border: 1px solid #E9E9E9;
+		border: 0px solid #E9E9E9;
 		border-radius: 2px;
-		text-align:center;
+		text-align:left;
 		padding:20px;
 		overflow: hidden;
+		width: 300px;
+         height: 300px;
 	}
+	
 	span {
 		color: #1b1b1b;
 		display: block;
-		font-size: 18px;
+		font-size: 12px;
 		font-weight: 500;
 		line-height: 1;
 		margin-top: 20px;
 		position: relative;
-		text-align: center;
+		text-align: left;
 		text-transform: uppercase;
+		font size:15px;
 	}
 
 	.box i {  
@@ -545,7 +537,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		border-bottom: 1px solid #E9E9E9;
 		color: #1b1b1b;
 		font-size: 36px;
-		font-weight: 700;
+		font-weight: 300;
 		line-height: 1.6;
 		margin: 0 0 50px;
 		padding-bottom: 40px;
@@ -557,13 +549,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		clear: both;
 		color: #888888;
 		display: block;
-		font-size: 18px;
-		font-weight: 300;
-		line-height: 1.8;
-		text-align: center;
-		text-transform: none;
+		font-size: 3px;
+		font-weight: 100;
+		line-height: 1.4;
+		text-align: left;
+		text-transform: none;background-color:none;
+		
 	}
-
 	.custom-box {
 		background:#ffffff;
 		border:1px solid #ddd;
@@ -760,7 +752,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		padding:15px;
 		position:relative;
 		display:block;
+		width:1100px;
 	}
+	
+	
 	
 	.widget-title {
 		text-transform:none; 
@@ -770,6 +765,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		line-height: 1.7;
 		margin-bottom:0;
 	}
+	
+	
+
 	.twitter-widget {
 		padding-left:10px
 	}
